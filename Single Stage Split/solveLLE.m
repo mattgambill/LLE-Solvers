@@ -117,8 +117,8 @@ raff = u(1,3);
 extract = u(2,3);
 Acetic_Acid=points(:,1);
 Isopropyl_Ether = points(:,2);
-T=table(Acetic_Acid,Isopropyl_Ether,water,'Rownames',{'Raffinate','Extract'});
-
+%T=table(Acetic_Acid,Isopropyl_Ether,water,'Rownames',{'Raffinate','Extract'});
+T=0
 percentRecovery = (points(2,1)*extract/(xq*M))*100; 
 % reports percent recovery as a percentage NOT a fraction. if output is 87 then it it 87%
 
