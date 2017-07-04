@@ -22,3 +22,6 @@ the % Recovery.
 that has many options in it (uncomment the lines to use them). Knowledge of Right Triangle 
 diagrams are **essential** to using this script.
 
+PartA.pdf is a great example of some the options that can be employed using the plotEquilibrium 
+and solveLLE scripts.
+
